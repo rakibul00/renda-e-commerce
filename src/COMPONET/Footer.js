@@ -18,7 +18,8 @@ const Footer = () => {
              <div className='col-lg-4' >
                  <h3>Renda E-Commerce</h3>
                  
-                 <p>{<FaArchway/> } Khulna,Boikali 4/302 and </p>
+                 <p>{<FaArchway/> } Khulna,Boikali 4/302/Uttara 4 number sector.
+azampur Jama Masjid  </p>
                  <p>{<FaPhone/>} 01721299758/01717796349</p>
                  <p>{<FaClock/>} Sat-Fri/9:00AM-10:00PM </p>
                  <p>{<FaMailBulk/>} rendaecommerce791@gmail.com </p>

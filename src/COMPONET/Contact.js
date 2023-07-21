@@ -27,7 +27,8 @@ const Contact = () => {
         <div className='col-md-5'>
           <h3>Randa E-Commerce.</h3>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut,</p>
-          <p><strong>Home:</strong><span>9000 GPO, Khulna City</span></p>
+          <p><strong>Home:</strong><span>9000 GPO, Khulna City/Uttara 4 number sector.
+azampur Jama Masjid </span></p>
           <p><strong>Contact:</strong><span>+00801721299758</span></p>
           <p><strong>Gmail:</strong><span>rendaecommerce791@gmail.com</span></p>
           <p><strong>Time:</strong><span>Mon-Fri/9:00-6:00PM</span></p>

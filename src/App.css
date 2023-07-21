@@ -1,4 +1,4 @@
-.App {
+/* .App {
     text-align: center;
   }
   
@@ -35,9 +35,16 @@
     to {
       transform: rotate(360deg);
     }
-  }
+  } */
 
-.templateContainer h1{
-  text-align: center;
 
+.wp-batton img{
+  width: 70px;
+  height: 70px;
+
+}
+.wp-batton{
+  position: fixed ;
+  right: 10px;
+  bottom: 10px;
 }

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-page h1{
+    text-align: center;
+    padding: 20px 40px;
+    color:  rgb(15, 124, 57);
+    background-color: antiquewhite;
+}
+.containerr{
+    background-color: rgb(15, 124, 57);
+    color: #fff;
+}
+.half-width{
+    padding: 40px 30px;
+}
+.half-width p{
+    font-weight: 600;
+}
+.half-width button{
+    width: 400px;
+    height: 40px;
+    text-align: left;
+    border: none;
+    border-radius: 30px;
+    padding: 4px 10px;
+}
+.half-width button span button{
+    width: 100px;
+    height: 33px;
+    border: none;
+    background-color: rgb(129, 63, 35);
+    border-radius: 30px;
+    color: #fff;
+}
+.half-width button span button:hover{
+    background-color:#fff ;
+    border-radius: 30px;
+    color: rgb(129, 63, 35);
+}
+.half-width span button{
+    margin-left: 142px;
+    padding: 0px 14px;
+
+}
+#oop{
+    padding: 40px 0px;
+}

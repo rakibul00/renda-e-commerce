@@ -1,5 +1,6 @@
 import './App.css'
-import {BrowserRouter, Route, Routes} from "react-router-dom"
+import { Routes} from "react-router-dom"
+import { Route } from 'react-router-dom';
 import Home from './COMPONET/Home';
 import Contact from "./COMPONET/Contact";
 import Shop from "./COMPONET/Shop";
@@ -10,6 +11,15 @@ import Girls from './COMPONET/Girls';
 import Loogo from './COMPONET/images/WhatsApp.svg.png'
 
 
+const routes = [
+  { path: '/', element: <Home /> },
+  { path: '/about', element: <About /> },
+  { path: '/shop', element: <Shop /> },
+  { path: '/contact', element: <Contact /> },
+  { path: '/boys', element: <Boys /> },
+  { path: '/girls', element: <Girls/> },
+  // More routes...
+];
 
 
 function App() {
@@ -18,16 +28,23 @@ function App() {
   return (
     <>
       <Nabbar/>
-      <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home/>}></Route>
-        <Route path="shop" element={<Shop/>}></Route>
-        <Route path="about" element={<About/>}></Route>
-        <Route path="contact" element={<Contact/>}></Route>
-        <Route path="/boyes" element={<Boys/>}></Route>
-        <Route path="girls" element={<Girls/>}></Route>
-      </Routes>
-      </BrowserRouter>
+      {routes.map((route) => (
+        <Route key={route.path} path={route.path} element={route.element} />
+      ))}
+    </Routes>
+      {/* <Switch>
+        <Route exact path="/" element={<Home/>}></Route>
+        <Route exact path="shop" element={<Shop/>}></Route>
+        <Route exact path="about" element={<About/>}></Route>
+        <Route exact path="contact" element={<Contact/>}></Route>
+        <Route exact path="/boyes" element={<Boys/>}></Route>
+        <Route exact path="girls" element={<Girls/>}></Route>
+         {routes.map((route) => (
+        <Route key={route.path} path={route.path} element={<route.component />} />
+      ))}
+      </Switch> */}
+      
       <div className='wp-batton'>
       <a target="_blank" href="https://wa.me/01721299758" className=''>
       <img src={Loogo} alt=""/>

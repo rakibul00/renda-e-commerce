@@ -16,7 +16,7 @@ const Contact = () => {
           </div>
           <div className='col-md-6'>
             <div className='half-width'>
-              <h2></h2><br/>
+              {/* <h2></h2><br/> */}
             <button>Your email address <span><button>Subscribe</button></span></button>
             </div>
           </div>

@@ -8,7 +8,7 @@ import {FaChevronRight } from "react-icons/fa";
 import {FaCheck } from "react-icons/fa";
 
 import './footer.css'
-
+import ScrollToTop from "react-scroll-to-top";
 const Footer = () => {
   return (
     <div className=' footer'>
@@ -43,9 +43,12 @@ azampur Jama Masjid  </p>
              
            
         </div>
+        
         <div className='copy'>
               <p> ©Renda E-Commerce 2023, all right reserve By:Renda E-Commerce <br/>Developer By:<a href="https://www.facebook.com/00mRicE69"target='_blank' >Md.Rakibul Islam</a> </p>
              </div>
+             <div style={{ marginTop: "0vh" }} />
+      <ScrollToTop smooth />
     </div>
   )
 }

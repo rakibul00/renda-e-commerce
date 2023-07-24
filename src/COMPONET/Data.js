@@ -112,6 +112,7 @@ const data = {
             img: img6,
             name:'Ts8 ultra wacth',
             price:'$882'
+            
         },
         {
             id:7,
